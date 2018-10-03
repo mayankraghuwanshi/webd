@@ -1,15 +1,34 @@
+.navbar{
+	border-bottom: 1px solid black;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+@media(max-width: 750){
+.navbar{
+      border-bottom: 1px solid black;
+      padding: 10;
+	}
+}
 .nav-link{
 	color: black;
 	font-size: 1.0em;
 
 }
+.btn-outline-success{
+	color: black;
+	border-color: black;
+}
 .bg-c{
 	background-color: white;
+}
+.logo{
+	width: 40px;
+	height:40px;
 }
 body{
     font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
     font-size: 18px;
-    font-weight: 600;
+   
    }
  header{
  	height: 100vh;
