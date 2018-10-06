@@ -35,6 +35,7 @@
 }
 .navbar{
 	border-bottom: 1px solid #0083ff;
+	padding: 0 200px 0 200px;
     
 }
 .nav-link{
@@ -148,8 +149,22 @@ body{
  	padding: 30px 20px 30px 20px;
 
  }
-
-
+footer{
+	background-color: #323639;
+	color: white;
+	wodth: 100%;
+}
+.bottom{
+	background-color: black;
+	color: white;
+}
+ @media (max-width: 900px){
+ 	.navbar{
+	border-bottom: 1px solid #0083ff;
+	padding: 10px;
+    
+}
+ }
  @media (max-width: 575px){
  	.big{
  		font-size: 40px;
@@ -161,13 +176,10 @@ body{
  	.abt{
  		margin: 30px auto;
  	}
+ 	.navbar{
+	border-bottom: 1px solid #0083ff;
+	padding: 10px;
+    
+}
+
  }
-footer{
-	background-color: #323639;
-	color: white;
-	wodth: 100%;
-}
-.bottom{
-	background-color: black;
-	color: white;
-}
