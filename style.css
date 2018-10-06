@@ -83,6 +83,9 @@ body{
  	.big{
  		font-size: 40px;
  	}
+ 	.small{
+ 		font-size: 30px;
+ 	}
  }
  .red{
  	color: #0083ff;
