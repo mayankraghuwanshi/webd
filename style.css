@@ -1,6 +1,41 @@
+#f1_container {
+  position: relative;
+  margin: 10px auto;
+  width: auto;
+  height: 281px;
+  z-index: 1;
+}
+#f1_container {
+  perspective: 1000;
+}
+#f1_card {
+  width: 100%;
+  height: 100%;
+  transform-style: preserve-3d;
+  transition: all .50s linear;
+}
+#f1_container:hover #f1_card {
+  transform: rotateY(180deg);
+  box-shadow: -5px 5px 5px #aaa;
+}
+.face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+.face.back {
+  display: block;
+  transform: rotateY(180deg);
+  box-sizing: border-box;
+  padding: 10px;
+  color: white;
+  text-align: center;
+  background-color: #aaa;
+}
 .navbar{
-	border-top: 1px solid red;
-	border-bottom: 1px solid red;
+	border-top: 1px solid #0083ff
+	border-bottom: 1px solid #0083ff;
     
 }
 .nav-link{
@@ -32,16 +67,25 @@ body{
  	background-image: url("bd.jpg");
  	background-size: cover;
  	background-repeat: no-repeat;
- 	border-bottom: 1px solid red;
+ 	border-bottom: 1px solid #0083ff;
  	
  }
- .red{
- 	color: #832727;
+ .white{
+ 	-webkit-text-fill-color: rgba(0,0,0,0);
+    -webkit-text-stroke-width: .5px;
+    -webkit-text-stroke-color: white;
  }
- .redh{
+ .big{
+ 	font-size: 80px;
+ 	margin-top: 170px;
+ }
+ .red{
+ 	color: #0083ff;
+ }
+ .blueh{
   -webkit-text-fill-color: rgba(0,0,0,0);
   -webkit-text-stroke-width: .5px;
-  -webkit-text-stroke-color: red;
+  -webkit-text-stroke-color: #0083ff;
  }
  .redhb{
   -webkit-text-fill-color: black;
@@ -51,12 +95,9 @@ body{
   .heading{
   -webkit-text-fill-color: rgba(0,0,0,0);
   -webkit-text-stroke-width: .5px;
-  -webkit-text-stroke-color: white;
-  text-align: center;
-  font-size: 80px;
-  margin-top: 200px;
-
-}
+  -webkit-text-stroke-color: #0083ff;
+  font-size: 30px;
+  }
 .cent{
 	text-align: center;
 	margin: auto;
@@ -68,18 +109,39 @@ body{
  }
  .abt{
  	font-size: 20px;
- 	border: 1px solid #832727;
- 	-webkit-text-fill-color: #832727;
+ 	border: 1px solid #0083ff;
+ 	-webkit-text-fill-color: #0083ff;
     -webkit-text-stroke-width: .5px;
     -webkit-text-stroke-color: black;
  }
  .sec-1{
  	width: 100%;
- 	height: 100vh;
- 	background-color: #F4F4F4;
- 	padding-top: 30px;
+ 	height: auto;
+ 	background-color: #D9E2EA;
+ 	padding: 30px 30px 20px 30px;
  }
- .s-head{
+ p{
+   font-size: 20px;
+ }
+ .sec-2{
+ 	width: 100%;
+ 	height: auto;
+ 	padding: 30px 20px 30px 20px;
 
+
+ }
+ .box{
+ 	border: 1px solid;
+ 	border-radius: 3px;
+    height: 300px;
+ }
+ .imgbox{
+ 	width:100%;
+ 	height: 281px;
+
+ }
+ .sec-3{
+ 	width: 100%;
+ 	height: auto;
 
  }
