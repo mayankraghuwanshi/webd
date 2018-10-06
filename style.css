@@ -34,7 +34,6 @@
   background-color: #aaa;
 }
 .navbar{
-	border-top: 1px solid #0083ff;
 	border-bottom: 1px solid #0083ff;
     
 }
@@ -82,15 +81,7 @@ body{
  .small{
  	font-size: 40px;
  }
-  @media (max-width: 575px){
- 	.big{
- 		font-size: 40px;
- 		margin-top: 30px;
- 	}
- 	.small{
- 		font-size: 30px;
- 	}
- }
+
  .red{
  	color: #0083ff;
  }
@@ -110,16 +101,15 @@ body{
   -webkit-text-stroke-color: #0083ff;
   font-size: 30px;
   }
-.cent{
-	text-align: center;
-	margin: auto;
-	display: block;
-	margin-top: 100px;
- }
+
  .transparent{
  	background: rgba(0,0,0,.7);
  }
  .abt{
+ 	
+ 	text-align: center;
+ 	margin: 30px auto;
+ 	display: block;
  	font-size: 20px;
  	border: 1px solid #0083ff;
  	-webkit-text-fill-color: #0083ff;
@@ -161,4 +151,18 @@ body{
  	border-bottom: 1px solid #0083ff;
  	padding: 30px 20px 30px 20px;
 
+ }
+
+
+ @media (max-width: 575px){
+ 	.big{
+ 		font-size: 40px;
+ 		margin-top: 30px;
+ 	}
+ 	.small{
+ 		font-size: 30px;
+ 	}
+ 	.abt{
+ 		margin: 30px auto;
+ 	}
  }
