@@ -126,14 +126,16 @@ body{
  .sec-2{
  	width: 100%;
  	height: auto;
- 	padding: 30px 20px 30px 20px;
+ 	padding: 30px 50px 50px 20px;
+ 	border-bottom: 1px solid #0083ff;
 
 
  }
  .box{
  	border: 1px solid;
  	border-radius: 3px;
-    height: 300px;
+    margin: 30px;
+    background-color: white;
  }
  .imgbox{
  	width:100%;
@@ -143,5 +145,8 @@ body{
  .sec-3{
  	width: 100%;
  	height: auto;
+ 	background-color: #D9E2EA;
+ 	border-bottom: 1px solid #0083ff;
+ 	padding: 30px 20px 30px 20px;
 
  }
