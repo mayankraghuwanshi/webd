@@ -90,13 +90,8 @@ body{
   -webkit-text-stroke-width: .5px;
   -webkit-text-stroke-color: #0083ff;
  }
- .redhb{
-  -webkit-text-fill-color: black;
-  -webkit-text-stroke-width: .5px;
-  -webkit-text-stroke-color: red;
- }
   .heading{
-  -webkit-text-fill-color: rgba(0,0,0,0);
+  -webkit-text-fill-color: black;
   -webkit-text-stroke-width: .5px;
   -webkit-text-stroke-color: #0083ff;
   font-size: 30px;
@@ -121,6 +116,9 @@ body{
  	height: auto;
  	background-color: #D9E2EA;
  	padding: 30px 30px 20px 30px;
+ 	color: white;
+ 	-webkit-text-stroke-width: .4px;
+    -webkit-text-stroke-color: black;
  }
  p{
    font-size: 20px;
