@@ -164,4 +164,10 @@ body{
  }
 footer{
 	background-color: #323639;
+	color: white;
+	wodth: 100%;
+}
+.bottom{
+	background-color: black;
+	color: white;
 }
